@@ -1,10 +1,10 @@
 
 import './Navlink.css'
 const Navlink = props => {
-    return <div className={`navlink ${props.gray ? 'gray' :''}`}>
+    return <a className={`navlink ${props.gray ? 'gray' :''}`} href='#'>
         <img src={props.src} />
         <p>{props.title}</p>
-    </div>
+    </a>
 }
 
 export default Navlink
