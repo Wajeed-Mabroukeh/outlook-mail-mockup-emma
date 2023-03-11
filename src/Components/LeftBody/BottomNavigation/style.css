@@ -1,0 +1,10 @@
+.BottomNav {
+    margin-bottom: 16px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 34px;
+    width: 214px;
+}

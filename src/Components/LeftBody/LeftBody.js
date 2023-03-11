@@ -1,9 +1,15 @@
+import React from 'react'
+import './LeftBody.css';
+import TopNavigation from './TopNavigation/index';
+import BottomNavigation from './BottomNavigation/index';
+
 function LeftBody() {
-    return (
-      <>
-    
-      </>
-    );
-  }
-  
-  export default LeftBody;
+  return (
+    <div className='content'>
+      <TopNavigation />
+      <BottomNavigation />
+      </div>
+  )
+}
+
+export default LeftBody
