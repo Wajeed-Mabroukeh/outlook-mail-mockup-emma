@@ -1,0 +1,23 @@
+.search-bar{
+    width: 350px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    background-color: #C7E0F4;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+.search-bar input{
+    background-color: transparent;
+    color: #005A9E;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-left: 1em;
+}
+
+.search-bar a{
+    margin-left: 1em;
+}
