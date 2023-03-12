@@ -10,4 +10,5 @@ const HigherPart = props => {
     </div>
 }
 
+
 export default HigherPart
