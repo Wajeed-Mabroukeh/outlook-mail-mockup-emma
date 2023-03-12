@@ -9,6 +9,7 @@ const LowerPart = props =>{
         <NewMassageButton />
         <LinkList />
         <More />
+        
     </div>
 }
 
