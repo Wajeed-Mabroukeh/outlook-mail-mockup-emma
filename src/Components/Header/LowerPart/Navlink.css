@@ -1,7 +1,7 @@
 .navlink{
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    text-decoration: none;
     font-size: 14px;
     color: #005A9E;
 }
