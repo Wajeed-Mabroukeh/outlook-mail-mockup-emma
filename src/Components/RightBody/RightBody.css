@@ -1,0 +1,8 @@
+.emailBodyContainer {
+    background-color: rgba(250, 249, 248, 1);
+    width: 557px;
+    height: 573px;
+    padding:1em 13px 1em 8px;
+    overflow: hidden;
+    border: solid 1px red;
+}
