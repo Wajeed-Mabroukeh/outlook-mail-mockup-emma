@@ -6,6 +6,7 @@ function Header() {
       <header>
           <HigherPart />
           <LowerPart />
+          
       </header>
     );
   }
