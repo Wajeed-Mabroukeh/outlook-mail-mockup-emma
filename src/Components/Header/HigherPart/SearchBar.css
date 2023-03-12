@@ -6,8 +6,9 @@
     background-color: #C7E0F4;
     border-radius: 2px;
 }
-a{
-    text-decoration: none;
+.search-bar button{
+    border: none;
+    background-color: transparent;
 }
 .search-bar input{
     background-color: transparent;
