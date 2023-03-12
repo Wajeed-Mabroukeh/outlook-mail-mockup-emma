@@ -2,7 +2,7 @@ import menuIcon from '../../../assets/Icon-Menu.png'
 
 import './ControlButton.css'
 const ControlButton = props => {
-    return <a href='#' className='control-button'><img src={menuIcon} /></a>
+    return <button className='control-button'><img src={menuIcon} /></button>
 }
 
 
