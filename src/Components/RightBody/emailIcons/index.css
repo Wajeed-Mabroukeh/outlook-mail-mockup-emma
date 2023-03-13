@@ -1,0 +1,9 @@
+.emailIconsContainer{
+    width: 50%;
+    height: 50%;
+    padding: 14px 21px;
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+    justify-content: end;
+}

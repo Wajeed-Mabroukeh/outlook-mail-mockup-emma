@@ -1,0 +1,9 @@
+.infoText {
+    padding: 0;
+    margin: 0;
+    color: rgba(96, 94, 92, 1);
+    font-family: "SegoeUI";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
