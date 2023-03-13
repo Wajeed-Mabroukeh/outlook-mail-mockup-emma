@@ -1,9 +1,7 @@
 .star_icon
 {
     opacity: 1;
-    position: absolute;
-    top:114px;
-    left: 322px;
     width: 17px;
     height: 16px;
+    margin-top: 15px;
 }

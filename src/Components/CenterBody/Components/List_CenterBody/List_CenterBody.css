@@ -1,9 +1,6 @@
 .List_CenterBody{
     opacity: 1;
     background-color: rgba(250,249,248, 1);
-    position: absolute;
-    top:230px;
-    left: 445px;
     width: 315px;
     height: 517px;
     display: flex;

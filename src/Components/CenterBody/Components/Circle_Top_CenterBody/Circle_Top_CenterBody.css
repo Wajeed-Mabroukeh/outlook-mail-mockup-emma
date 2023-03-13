@@ -2,7 +2,9 @@
     opacity: 1;
     width: 17px;
     height: 17px;
-    position:absolute;
+    margin-top: 15px;
+    margin-right: 10px;
+    /* position:absolute;
     top:115px;
-    left: 232px;
+    left: 232px; */
 }
