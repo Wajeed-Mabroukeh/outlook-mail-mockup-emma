@@ -1,0 +1,14 @@
+.timeBox{
+    opacity: 1;
+    color: rgba(96,94,92,1);
+    font-family: "SegoeUI";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    position: relative;
+    bottom: 85px;
+    left: 175px;
+
+}
