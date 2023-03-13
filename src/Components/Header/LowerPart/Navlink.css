@@ -1,0 +1,13 @@
+.navlink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #005A9E;
+}
+.navlink > * {
+    margin: 5px;
+}
+.gray{
+    color: #C8C6C4 !important; 
+}

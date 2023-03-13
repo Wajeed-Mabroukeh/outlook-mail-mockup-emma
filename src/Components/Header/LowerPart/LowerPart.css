@@ -1,0 +1,13 @@
+.lower-part{
+    display: flex;
+    height: 44px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F2F1;
+}
+
+.lower-part > *{
+    margin: 1em;
+    
+}
+
