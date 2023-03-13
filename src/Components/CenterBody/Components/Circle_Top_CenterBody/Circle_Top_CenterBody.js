@@ -1,5 +1,5 @@
 import './Circle_Top_CenterBody.css';
-import icondone from '../../assest/Combined Shape-4.png'
+import icondone from '../../../../assest/Combined Shape-4.png'
 
 function Circle_Top_CenterBody() {
     return (

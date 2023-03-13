@@ -1,5 +1,5 @@
 import './Star_Top_CenterBody.css';
-import iconstar from '../../assest/Icon-Star.png' 
+import iconstar from '../../../../assest/Icon-Star.png' 
 
 function Star_Top_CenterBody() {
     return (

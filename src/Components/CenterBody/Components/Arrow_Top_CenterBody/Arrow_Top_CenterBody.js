@@ -1,6 +1,6 @@
 import './Arrow_Top_CenterBody.css';
 
-import iconArrow from '../../assest/Icon-Arrow-down Copy 4.png'
+import iconArrow from '../../../../assest/Icon-Arrow-down Copy 4.png'
 
 function Arrow_Top_CenterBody() {
     return (
