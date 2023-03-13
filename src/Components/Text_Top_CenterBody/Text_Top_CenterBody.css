@@ -1,0 +1,15 @@
+.Filter{
+    opacity: 1;
+    color: rgba(1,120,212,1);
+    font-family: "SegoeUI";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    top:103px;
+    left: 494px;
+    width: 57px;
+    height: 19px;   
+}

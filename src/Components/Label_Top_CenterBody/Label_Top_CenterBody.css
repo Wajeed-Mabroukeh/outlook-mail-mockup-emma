@@ -1,0 +1,16 @@
+.index{
+    opacity: 1;
+    color: rgba(50,49,48,1);
+    font-family: "SegoeUI-Bold";
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    top:96px;
+    left: 266px;
+    width: 57px;
+    height: 22px;
+}
+
