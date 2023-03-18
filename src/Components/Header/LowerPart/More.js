@@ -1,6 +1,5 @@
-import moreIcon from  '../../../assets/More.png'
 const More = props =>{
-    return <a href="#" style={{display:'flex'}} ><img src={moreIcon}/></a>
+    return <a href="/" style={{display:'flex'}} ><img src={'images/More.png'} alt='More' /></a>
 }
 
 export default More
