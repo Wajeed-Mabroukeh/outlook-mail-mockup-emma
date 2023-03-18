@@ -1,18 +1,15 @@
-import React from 'react'
-import './index.css'
-import icon1 from '../../../assets/Icon/UI/restart.png'
-import Restart from '../../../assets/Icon/UI/restart Copy.png'
-import IconMore from '../../../assets/Icon-More.png'
-import CombinedShape from '../../../assets/Combined Shape.png'
+import React from "react";
+import style from "./index.module.css";
+import { icons } from "./icons";
+
 const EmailIcons = () => {
   return (
-    <div className='emailIconsContainer'>
-      <img src={icon1}/>
-      <img src={Restart}/>
-      <img src={CombinedShape}/>
-      <img src={IconMore}/>
+    <div className={style.emailIconsContainer}>
+      {icons.map((item, index) => (
+        <img key={index} src={item.icon} />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default EmailIcons
+export default EmailIcons;

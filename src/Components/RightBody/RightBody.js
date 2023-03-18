@@ -1,10 +1,10 @@
-import "./RightBody.css";
+import style from "./RightBody.module.css";
 import EmailTitle from "./emailTitle";
 import EmailContent from "./emailContent";
 function RightBody() {
   return (
-    <div className="emailBodyContainer">
-      <EmailTitle />
+    <div className={style.emailBodyContainer}>
+      <EmailTitle title="Lorem Ipsum" />
       <EmailContent />
     </div>
   );

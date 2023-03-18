@@ -1,8 +1,8 @@
 import React from "react";
-import './index.css'
-const EmailTitle = () => {
+import style from './index.module.css'
+const EmailTitle = ({title}) => {
   return(    
-  <h3 className="email-title"> Lorem Ipsum</h3>
+  <h3 className={style.emailTitle}> {title}</h3>
   );
   
 };

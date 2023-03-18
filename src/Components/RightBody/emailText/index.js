@@ -1,8 +1,8 @@
 import React from 'react'
-import './index.css'
-const EmailText = () => {
+import style from './index.module.css'
+const EmailText = ({text}) => {
   return (
-    <p className='infoText'>Thu 6/18/2020 4:49 PM</p>
+    <p className={style.infoText}>{text}</p>
   )
 }
 

@@ -1,19 +1,18 @@
 import React from "react";
-import EmailTitle from "../emailTitle";
 import EmailText from "../emailText";
-import "./index.css";
-const EmailInformation = () => {
+import style from "./index.module.css";
+const EmailInformation = ({title}) => {
   return (
-    <div className="emailInformationContainer">
-      <div className="temp">{/*Wajeed Components*/}A</div>
-      <div className="emailLeftHeader">
+    <div className={style.emailInformationContainer}>
+      <div className={style.temp}>{/*Wajeed Components*/}A</div>
+      <div className={style.emailLeftHeader}>
         {/*Wajeed Components*/}
-        <p className="tempText">Lorem Ipsum &lt;no_reply@loremipsum.com&gt;</p>
-        <div className="smallInformation">
-          <EmailText />
-          <div className="rowFlex">
+        <p className={style.tempText}>{title}</p>
+        <div className={style.smallInformation}>
+          <EmailText text="Thu 6/18/2020 4:49 PM" />
+          <div className={style.rowFlex}>
             <p>To:</p>
-            <EmailText />
+            <EmailText text="You:" />
           </div>
         </div>
       </div>

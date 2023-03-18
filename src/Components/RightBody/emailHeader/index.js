@@ -1,14 +1,13 @@
 import React from "react";
 import EmailIcons from "../emailIcons";
-import EmailTitle from "../emailTitle";
 import EmailInformation from "./../emailInfo/index";
-import './index.css'
+import style from './index.module.css'
 const EmailHeader = () => {
   return (
-    <div className="emailHeaderContainer">
-      <EmailInformation />
+    <div className={style.emailHeaderContainer}>
+      <EmailInformation title="Lorem Ipsum
+       <no_reply@loremipsum.com>" />
       <EmailIcons/>
-      
     </div>
   );
 };
