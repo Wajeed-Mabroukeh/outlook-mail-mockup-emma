@@ -1,10 +1,10 @@
 import './TimeBox.css';
 
 
-function TimeBox() {
+function TimeBox({time}) {
     return (
     <nav className='timeBox'>
-      <p>Wed 7:32 AM</p>
+      <p>{time}</p>
     </nav>
     )
   }

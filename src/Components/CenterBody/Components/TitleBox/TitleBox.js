@@ -1,10 +1,10 @@
 import './TitleBox.css';
 
 
-function TitleBox() {
+function TitleBox({title}) {
     return (
     <nav className='titleBox'>
-     <p>Lorem Ipsum</p>
+     <p>{title}</p>
     </nav>
     )
   }
