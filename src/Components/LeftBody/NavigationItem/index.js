@@ -1,24 +1,24 @@
 import React from 'react'
-import './style.css';
+import style from './style.module.css';
 
-function index(props) {
+function index({icon,emailSection,numberOfEmails, type}) {
 
   return (
     <>
-    { props.type == "TopNav"
+    { type == "TopNav"
       ?
-        props.emailSection == 'Inbox'
+        emailSection == 'Inbox'
         ?
-            <li className='active'>
-                <img src={props.icon} /><span className='text'>{props.emailSection}</span><span>{props.numberOfEmails}</span>
+            <li className={style.active}>
+                <img src={icon} /><span className={style.text}>{emailSection}</span><span>{numberOfEmails}</span>
             </li>
         :
             <li>
-            <img src={props.icon} /><span className='text'>{props.emailSection}</span><span>{props.numberOfEmails}</span>
+            <img src={icon} /><span className={style.text}>{emailSection}</span><span>{numberOfEmails}</span>
             </li>
       :
         <li>
-        <img src={props.icon} />
+        <img src={icon} />
         </li>
    }
   </>

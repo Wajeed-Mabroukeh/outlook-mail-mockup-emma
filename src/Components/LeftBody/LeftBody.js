@@ -1,11 +1,11 @@
 import React from 'react'
-import './LeftBody.css';
+import style from './style.module.css';
 import TopNavigation from './TopNavigation/index';
 import BottomNavigation from './BottomNavigation/index';
 
 function LeftBody() {
   return (
-    <div className='content'>
+    <div className={style.content}>
       <TopNavigation />
       <BottomNavigation />
       </div>
