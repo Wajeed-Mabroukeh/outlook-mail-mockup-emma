@@ -3,4 +3,11 @@
     border: none;
     color: #FFFFFF;
     padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.17s linear;
+}
+.new-massage-btn:hover{
+    background-color: #3a98e0   ;
+
 }
