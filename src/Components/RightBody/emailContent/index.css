@@ -1,0 +1,31 @@
+.emailContentContainer {
+    border-radius: 1px;
+    border: 1px solid rgba(243, 242, 241, 1);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 9px 21px 9px 13px;
+    margin-right: 27px;
+    height: inherit;
+    overflow-y: auto;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C8C6C4;
+    border-radius: 10px;
+    border: 1px solid #ccc; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #706e6c; 
+  }
