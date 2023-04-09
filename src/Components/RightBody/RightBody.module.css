@@ -4,4 +4,6 @@
     height: 573px;
     padding:1em 13px 1em 8px;
     overflow: hidden;
+    position: absolute;
+    right: 0;
 }
