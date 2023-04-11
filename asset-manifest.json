@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Marwahaifawi/Outlook/static/css/main.09d214e0.css",
+    "main.js": "/Marwahaifawi/Outlook/static/js/main.61939e70.js",
+    "static/js/787.3e644e55.chunk.js": "/Marwahaifawi/Outlook/static/js/787.3e644e55.chunk.js",
+    "static/media/HiImage.png": "/Marwahaifawi/Outlook/static/media/HiImage.972ee94400749cc5154b.png",
+    "index.html": "/Marwahaifawi/Outlook/index.html",
+    "main.09d214e0.css.map": "/Marwahaifawi/Outlook/static/css/main.09d214e0.css.map",
+    "main.61939e70.js.map": "/Marwahaifawi/Outlook/static/js/main.61939e70.js.map",
+    "787.3e644e55.chunk.js.map": "/Marwahaifawi/Outlook/static/js/787.3e644e55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09d214e0.css",
+    "static/js/main.61939e70.js"
+  ]
+}
